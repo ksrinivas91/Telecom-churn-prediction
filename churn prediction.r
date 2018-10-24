@@ -9,7 +9,7 @@ library(MASS)
 library(randomForest)
 library(party)
 
-setwd("D:/analytics training/Important materials/Intern & Kaggle/Churn Prediction")
+setwd("D:/analytics training/Important materials/Intern & Kaggle/Churn Prediction/Telecom-churn-prediction")
 mydata <- read.csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
 apply(apply(mydata,2,is.na),2,sum);nrow(mydata)
 str(mydata)
